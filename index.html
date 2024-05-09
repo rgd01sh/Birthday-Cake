@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Interactive Birthday Greeting</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="envelope" class="envelope">
+        <div id="birthdayCard" class="message-card">
+          <h1>
+            Happy Birthday! <br>
+            <br>
+            كل عام وانتي بخير
+          </br>
+        </br>
+          </h1>
+        </div>
+        <!-- The envelope can be clicked to reveal the card, so no button is needed -->
+      </div>
+
+      <div id="balloons" class="balloons">
+        <!-- Balloons with faces and strings will be added here by JavaScript -->
+      </div>
+      <div id="cakeContainer" style="display: none">
+        <div class="cake">
+          <div class="velas">
+            <div class="fuego"></div>
+            <div class="fuego"></div>
+            <div class="fuego"></div>
+            <div class="fuego"></div>
+            <div class="fuego"></div>
+          </div>
+          <div class="cobertura"></div>
+          <div class="bizcocho"></div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
